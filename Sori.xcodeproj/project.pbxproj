@@ -11,6 +11,7 @@
 		2C0A12E32A51F7EE00A59FFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A12E22A51F7EE00A59FFD /* ContentView.swift */; };
 		2C0A12E52A51F7EF00A59FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A12E42A51F7EF00A59FFD /* Assets.xcassets */; };
 		2C0A12E82A51F7EF00A59FFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A12E72A51F7EF00A59FFD /* Preview Assets.xcassets */; };
+		A5A261B10DD0A93A063FCCB4 /* Pods_Sori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7ED78F842DED411F1FBAADE /* Pods_Sori.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,9 @@
 		2C0A12E22A51F7EE00A59FFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C0A12E42A51F7EF00A59FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C0A12E72A51F7EF00A59FFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF80CFEEF14F8DD4E8FDBD98 /* Pods-Sori.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sori.debug.xcconfig"; path = "Target Support Files/Pods-Sori/Pods-Sori.debug.xcconfig"; sourceTree = "<group>"; };
+		E1877D9C57CAF4BB1DCB5398 /* Pods-Sori.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sori.release.xcconfig"; path = "Target Support Files/Pods-Sori/Pods-Sori.release.xcconfig"; sourceTree = "<group>"; };
+		E7ED78F842DED411F1FBAADE /* Pods_Sori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A261B10DD0A93A063FCCB4 /* Pods_Sori.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +42,8 @@
 			children = (
 				2C0A12DF2A51F7EE00A59FFD /* Sori */,
 				2C0A12DE2A51F7EE00A59FFD /* Products */,
+				5F271EC5D3870BC2D2351990 /* Pods */,
+				38D7D6B01C1A14EB23558892 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		38D7D6B01C1A14EB23558892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7ED78F842DED411F1FBAADE /* Pods_Sori.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F271EC5D3870BC2D2351990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF80CFEEF14F8DD4E8FDBD98 /* Pods-Sori.debug.xcconfig */,
+				E1877D9C57CAF4BB1DCB5398 /* Pods-Sori.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C0A12EB2A51F7EF00A59FFD /* Build configuration list for PBXNativeTarget "Sori" */;
 			buildPhases = (
+				1395A1C696BFBF90F0D9C9A9 /* [CP] Check Pods Manifest.lock */,
 				2C0A12D92A51F7EE00A59FFD /* Sources */,
 				2C0A12DA2A51F7EE00A59FFD /* Frameworks */,
 				2C0A12DB2A51F7EE00A59FFD /* Resources */,
+				21654241DDBA2CCCEFE047AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1395A1C696BFBF90F0D9C9A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sori-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21654241DDBA2CCCEFE047AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sori/Pods-Sori-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sori/Pods-Sori-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sori/Pods-Sori-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C0A12D92A51F7EE00A59FFD /* Sources */ = {
@@ -261,6 +330,7 @@
 		};
 		2C0A12EC2A51F7EF00A59FFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF80CFEEF14F8DD4E8FDBD98 /* Pods-Sori.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +360,7 @@
 		};
 		2C0A12ED2A51F7EF00A59FFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1877D9C57CAF4BB1DCB5398 /* Pods-Sori.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
