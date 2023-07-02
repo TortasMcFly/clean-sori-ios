@@ -43,7 +43,7 @@ class AuthViewModel: ObservableObject {
                 switch result {
                 case .success(let customer):
                     self.isGuest = customer.isGuest()
-                    self.onGetCustomer(customer: customer)
+                    self.onGetSession(session: customer)
                     break
                 case .failure(let error):
                     self.showAlert = true
@@ -61,7 +61,7 @@ class AuthViewModel: ObservableObject {
                 switch result {
                 case .success(let customer):
                     self.isGuest = customer.isGuest()
-                    self.onGetCustomer(customer: customer)
+                    self.onGetSession(session: customer)
                     break
                 case .failure(let error):
                     if error.backendError?.status == 401 {
@@ -83,7 +83,7 @@ class AuthViewModel: ObservableObject {
                 switch result {
                 case .success(let customer):
                     self.isGuest = customer.isGuest()
-                    self.onGetCustomer(customer: customer)
+                    self.onGetSession(session: customer)
                     break
                 case .failure(let error):
                     self.showAlert = true
@@ -94,7 +94,7 @@ class AuthViewModel: ObservableObject {
             .store(in: &cancellableSet)
     }
     
-    func onGetCustomer(customer: Session?) {
+    func onGetSession(session: Session?) {
         fatalError("Subclasses must implement abstractMethod.")
     }
     

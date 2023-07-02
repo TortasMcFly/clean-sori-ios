@@ -11,7 +11,7 @@ class HomeViewModel: AuthViewModel {
     
     private var event: Events = .initial
     
-    override func onGetCustomer(customer: Session?) {
+    override func onGetSession(session: Session?) {
         switch event {
         case .initial:
             getHome()
