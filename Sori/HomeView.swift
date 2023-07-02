@@ -12,7 +12,7 @@ struct HomeView: View {
     
     var body: some View {
         VStack (alignment: .center, spacing: 10) {
-            Text("Welcome!")
+            Text("Welcome User!")
             
             Button(action: {
                 showSheet.toggle()
