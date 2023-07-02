@@ -11,6 +11,9 @@
 		2C0A12E32A51F7EE00A59FFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A12E22A51F7EE00A59FFD /* ContentView.swift */; };
 		2C0A12E52A51F7EF00A59FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A12E42A51F7EF00A59FFD /* Assets.xcassets */; };
 		2C0A12E82A51F7EF00A59FFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A12E72A51F7EF00A59FFD /* Preview Assets.xcassets */; };
+		2CAE92F72A51FA8200DF0D66 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE92F62A51FA8200DF0D66 /* LoginView.swift */; };
+		2CAE92F92A51FAE400DF0D66 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE92F82A51FAE400DF0D66 /* HomeView.swift */; };
+		2CAE92FB2A51FB0B00DF0D66 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE92FA2A51FB0B00DF0D66 /* ProfileView.swift */; };
 		A5A261B10DD0A93A063FCCB4 /* Pods_Sori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7ED78F842DED411F1FBAADE /* Pods_Sori.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +23,9 @@
 		2C0A12E22A51F7EE00A59FFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C0A12E42A51F7EF00A59FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C0A12E72A51F7EF00A59FFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CAE92F62A51FA8200DF0D66 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2CAE92F82A51FAE400DF0D66 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2CAE92FA2A51FB0B00DF0D66 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		BF80CFEEF14F8DD4E8FDBD98 /* Pods-Sori.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sori.debug.xcconfig"; path = "Target Support Files/Pods-Sori/Pods-Sori.debug.xcconfig"; sourceTree = "<group>"; };
 		E1877D9C57CAF4BB1DCB5398 /* Pods-Sori.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sori.release.xcconfig"; path = "Target Support Files/Pods-Sori/Pods-Sori.release.xcconfig"; sourceTree = "<group>"; };
 		E7ED78F842DED411F1FBAADE /* Pods_Sori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +68,9 @@
 				2C0A12E22A51F7EE00A59FFD /* ContentView.swift */,
 				2C0A12E42A51F7EF00A59FFD /* Assets.xcassets */,
 				2C0A12E62A51F7EF00A59FFD /* Preview Content */,
+				2CAE92F62A51FA8200DF0D66 /* LoginView.swift */,
+				2CAE92F82A51FAE400DF0D66 /* HomeView.swift */,
+				2CAE92FA2A51FB0B00DF0D66 /* ProfileView.swift */,
 			);
 			path = Sori;
 			sourceTree = "<group>";
@@ -88,7 +97,6 @@
 				BF80CFEEF14F8DD4E8FDBD98 /* Pods-Sori.debug.xcconfig */,
 				E1877D9C57CAF4BB1DCB5398 /* Pods-Sori.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAE92F72A51FA8200DF0D66 /* LoginView.swift in Sources */,
+				2CAE92F92A51FAE400DF0D66 /* HomeView.swift in Sources */,
+				2CAE92FB2A51FB0B00DF0D66 /* ProfileView.swift in Sources */,
 				2C0A12E32A51F7EE00A59FFD /* ContentView.swift in Sources */,
 				2C0A12E12A51F7EE00A59FFD /* SoriApp.swift in Sources */,
 			);
