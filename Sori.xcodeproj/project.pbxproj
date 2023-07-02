@@ -14,6 +14,19 @@
 		2CAE92F72A51FA8200DF0D66 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE92F62A51FA8200DF0D66 /* LoginView.swift */; };
 		2CAE92F92A51FAE400DF0D66 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE92F82A51FAE400DF0D66 /* HomeView.swift */; };
 		2CAE92FB2A51FB0B00DF0D66 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE92FA2A51FB0B00DF0D66 /* ProfileView.swift */; };
+		2CAE93072A52130900DF0D66 /* AuthModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE93062A52130900DF0D66 /* AuthModule.swift */; };
+		2CAE930D2A52171800DF0D66 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE930C2A52171800DF0D66 /* Session.swift */; };
+		2CAE930F2A52178500DF0D66 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE930E2A52178500DF0D66 /* Customer.swift */; };
+		2CAE93112A5218A500DF0D66 /* AuthRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE93102A5218A500DF0D66 /* AuthRepositoryProtocol.swift */; };
+		2CAE93152A52193E00DF0D66 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE93142A52193E00DF0D66 /* DomainError.swift */; };
+		2CAE93172A52200700DF0D66 /* CreateGuestTokenUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE93162A52200700DF0D66 /* CreateGuestTokenUseCase.swift */; };
+		2CAE93192A52202700DF0D66 /* RefreshTokenUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE93182A52202700DF0D66 /* RefreshTokenUseCase.swift */; };
+		2CAE931B2A52203D00DF0D66 /* GetCustomerUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE931A2A52203D00DF0D66 /* GetCustomerUseCase.swift */; };
+		2CAE931D2A52204A00DF0D66 /* SignInUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE931C2A52204A00DF0D66 /* SignInUseCase.swift */; };
+		2CAE93222A52233100DF0D66 /* AuthUseCasesWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE93212A52233000DF0D66 /* AuthUseCasesWrapper.swift */; };
+		2CAE93242A52246500DF0D66 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE93232A52246500DF0D66 /* AuthViewModel.swift */; };
+		2CAE93292A5237F200DF0D66 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE93282A5237F200DF0D66 /* HomeViewModel.swift */; };
+		2CAE932B2A52382900DF0D66 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE932A2A52382900DF0D66 /* LoginViewModel.swift */; };
 		A5A261B10DD0A93A063FCCB4 /* Pods_Sori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7ED78F842DED411F1FBAADE /* Pods_Sori.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +39,19 @@
 		2CAE92F62A51FA8200DF0D66 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2CAE92F82A51FAE400DF0D66 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2CAE92FA2A51FB0B00DF0D66 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2CAE93062A52130900DF0D66 /* AuthModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModule.swift; sourceTree = "<group>"; };
+		2CAE930C2A52171800DF0D66 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		2CAE930E2A52178500DF0D66 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		2CAE93102A5218A500DF0D66 /* AuthRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryProtocol.swift; sourceTree = "<group>"; };
+		2CAE93142A52193E00DF0D66 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
+		2CAE93162A52200700DF0D66 /* CreateGuestTokenUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGuestTokenUseCase.swift; sourceTree = "<group>"; };
+		2CAE93182A52202700DF0D66 /* RefreshTokenUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenUseCase.swift; sourceTree = "<group>"; };
+		2CAE931A2A52203D00DF0D66 /* GetCustomerUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerUseCase.swift; sourceTree = "<group>"; };
+		2CAE931C2A52204A00DF0D66 /* SignInUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUseCase.swift; sourceTree = "<group>"; };
+		2CAE93212A52233000DF0D66 /* AuthUseCasesWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUseCasesWrapper.swift; sourceTree = "<group>"; };
+		2CAE93232A52246500DF0D66 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		2CAE93282A5237F200DF0D66 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2CAE932A2A52382900DF0D66 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		BF80CFEEF14F8DD4E8FDBD98 /* Pods-Sori.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sori.debug.xcconfig"; path = "Target Support Files/Pods-Sori/Pods-Sori.debug.xcconfig"; sourceTree = "<group>"; };
 		E1877D9C57CAF4BB1DCB5398 /* Pods-Sori.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sori.release.xcconfig"; path = "Target Support Files/Pods-Sori/Pods-Sori.release.xcconfig"; sourceTree = "<group>"; };
 		E7ED78F842DED411F1FBAADE /* Pods_Sori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,13 +90,14 @@
 		2C0A12DF2A51F7EE00A59FFD /* Sori */ = {
 			isa = PBXGroup;
 			children = (
-				2C0A12E02A51F7EE00A59FFD /* SoriApp.swift */,
 				2C0A12E22A51F7EE00A59FFD /* ContentView.swift */,
-				2C0A12E42A51F7EF00A59FFD /* Assets.xcassets */,
+				2CAE92FC2A52106700DF0D66 /* Assets */,
+				2CAE92FD2A52107E00DF0D66 /* Core */,
+				2CAE93012A52118000DF0D66 /* FeatureAuth */,
+				2CAE92FF2A52116B00DF0D66 /* FeatureHome */,
+				2CAE93002A52117600DF0D66 /* FeatureProfile */,
 				2C0A12E62A51F7EF00A59FFD /* Preview Content */,
-				2CAE92F62A51FA8200DF0D66 /* LoginView.swift */,
-				2CAE92F82A51FAE400DF0D66 /* HomeView.swift */,
-				2CAE92FA2A51FB0B00DF0D66 /* ProfileView.swift */,
+				2CAE92FE2A52108A00DF0D66 /* System */,
 			);
 			path = Sori;
 			sourceTree = "<group>";
@@ -81,6 +108,146 @@
 				2C0A12E72A51F7EF00A59FFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CAE92FC2A52106700DF0D66 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2C0A12E42A51F7EF00A59FFD /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2CAE92FD2A52107E00DF0D66 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE93122A52191500DF0D66 /* Domain */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2CAE92FE2A52108A00DF0D66 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				2C0A12E02A51F7EE00A59FFD /* SoriApp.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		2CAE92FF2A52116B00DF0D66 /* FeatureHome */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE93272A5237E600DF0D66 /* presentation */,
+			);
+			path = FeatureHome;
+			sourceTree = "<group>";
+		};
+		2CAE93002A52117600DF0D66 /* FeatureProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE92FA2A51FB0B00DF0D66 /* ProfileView.swift */,
+			);
+			path = FeatureProfile;
+			sourceTree = "<group>";
+		};
+		2CAE93012A52118000DF0D66 /* FeatureAuth */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE93052A5212EB00DF0D66 /* DI */,
+				2CAE93042A5211EE00DF0D66 /* Data */,
+				2CAE93032A5211DC00DF0D66 /* Domain */,
+				2CAE93022A5211D100DF0D66 /* Presentation */,
+			);
+			path = FeatureAuth;
+			sourceTree = "<group>";
+		};
+		2CAE93022A5211D100DF0D66 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE92F62A51FA8200DF0D66 /* LoginView.swift */,
+				2CAE93232A52246500DF0D66 /* AuthViewModel.swift */,
+				2CAE932A2A52382900DF0D66 /* LoginViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2CAE93032A5211DC00DF0D66 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE930B2A5213FE00DF0D66 /* Model */,
+				2CAE930A2A5213F500DF0D66 /* Repository */,
+				2CAE93092A5213D200DF0D66 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2CAE93042A5211EE00DF0D66 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2CAE93052A5212EB00DF0D66 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE93062A52130900DF0D66 /* AuthModule.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		2CAE93092A5213D200DF0D66 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE93182A52202700DF0D66 /* RefreshTokenUseCase.swift */,
+				2CAE93162A52200700DF0D66 /* CreateGuestTokenUseCase.swift */,
+				2CAE931A2A52203D00DF0D66 /* GetCustomerUseCase.swift */,
+				2CAE931C2A52204A00DF0D66 /* SignInUseCase.swift */,
+				2CAE93212A52233000DF0D66 /* AuthUseCasesWrapper.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		2CAE930A2A5213F500DF0D66 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE93102A5218A500DF0D66 /* AuthRepositoryProtocol.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2CAE930B2A5213FE00DF0D66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE930C2A52171800DF0D66 /* Session.swift */,
+				2CAE930E2A52178500DF0D66 /* Customer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CAE93122A52191500DF0D66 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE93132A52192200DF0D66 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2CAE93132A52192200DF0D66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE93142A52193E00DF0D66 /* DomainError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CAE93272A5237E600DF0D66 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2CAE92F82A51FAE400DF0D66 /* HomeView.swift */,
+				2CAE93282A5237F200DF0D66 /* HomeViewModel.swift */,
+			);
+			path = presentation;
 			sourceTree = "<group>";
 		};
 		38D7D6B01C1A14EB23558892 /* Frameworks */ = {
@@ -214,11 +381,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAE93292A5237F200DF0D66 /* HomeViewModel.swift in Sources */,
+				2CAE930D2A52171800DF0D66 /* Session.swift in Sources */,
+				2CAE93172A52200700DF0D66 /* CreateGuestTokenUseCase.swift in Sources */,
 				2CAE92F72A51FA8200DF0D66 /* LoginView.swift in Sources */,
 				2CAE92F92A51FAE400DF0D66 /* HomeView.swift in Sources */,
+				2CAE931B2A52203D00DF0D66 /* GetCustomerUseCase.swift in Sources */,
+				2CAE930F2A52178500DF0D66 /* Customer.swift in Sources */,
+				2CAE93242A52246500DF0D66 /* AuthViewModel.swift in Sources */,
+				2CAE932B2A52382900DF0D66 /* LoginViewModel.swift in Sources */,
+				2CAE93192A52202700DF0D66 /* RefreshTokenUseCase.swift in Sources */,
+				2CAE93072A52130900DF0D66 /* AuthModule.swift in Sources */,
+				2CAE93222A52233100DF0D66 /* AuthUseCasesWrapper.swift in Sources */,
 				2CAE92FB2A51FB0B00DF0D66 /* ProfileView.swift in Sources */,
+				2CAE931D2A52204A00DF0D66 /* SignInUseCase.swift in Sources */,
+				2CAE93112A5218A500DF0D66 /* AuthRepositoryProtocol.swift in Sources */,
 				2C0A12E32A51F7EE00A59FFD /* ContentView.swift in Sources */,
 				2C0A12E12A51F7EE00A59FFD /* SoriApp.swift in Sources */,
+				2CAE93152A52193E00DF0D66 /* DomainError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

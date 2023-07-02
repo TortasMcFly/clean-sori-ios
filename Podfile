@@ -9,5 +9,6 @@ target 'Sori' do
 
   pod 'Alamofire'
   pod "Factory"
+  pod 'RealmSwift', '~>10'
 
 end
